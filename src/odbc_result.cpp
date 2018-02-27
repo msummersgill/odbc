@@ -487,8 +487,7 @@ void odbc_result::add_classes(
       x.attr("tzone") = Rcpp::CharacterVector::create("UTC");
       break;
     case odbc::time_t:
-      x.attr("class") = Rcpp::CharacterVector::create("hms", "difftime");
-      x.attr("units") = Rcpp::CharacterVector::create("secs");
+      x.attr("class") = Rcpp::CharacterVector::create("difftime");
       break;
     case raw_t:
       x.attr("class") = Rcpp::CharacterVector::create("blob");
