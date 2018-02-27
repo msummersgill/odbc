@@ -1,3 +1,7 @@
+# odbc 1.1.5.9000
+
+* Eliminate tidyverse dependencies
+
 # odbc 1.1.5
 
 * Fix the return value for `dbQuoteIdentifier()` when given a length 0 input

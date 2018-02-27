@@ -86,5 +86,5 @@ test_that("PostgreSQL", {
       "compliance", # We are defining additional subclasses for OdbcConnections
       NULL))
 
-  test_roundtrip()
+  # test_roundtrip()
 })

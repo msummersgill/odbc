@@ -1,6 +1,6 @@
 Package: odbc
-Title: Connect to ODBC Compatible Databases (using the DBI Interface)
-Version: 1.1.5
+Title: (No Tidyverse Depends) Connect to ODBC Compatible Databases (using the DBI Interface)
+Version: 1.1.5.9000
 Authors@R: c(
     person("Jim", "Hester", , "james.hester@rstudio.com", role = c("aut", "cre")),
     person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut")),
@@ -22,9 +22,7 @@ Imports:
     DBI (>= 0.3.0),
     methods,
     Rcpp (>= 0.12.11),
-    blob (>= 1.1.0),
-    bit64,
-    hms
+    bit64
 Suggests:
     tibble,
     DBItest,

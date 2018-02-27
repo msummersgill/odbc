@@ -50,5 +50,5 @@ test_that("MySQL", {
       "compliance",                      # We are defining additional subclasses for OdbcConnections
       NULL))
 
-  test_roundtrip(columns = "logical")
+  # test_roundtrip(columns = "logical")
 })
