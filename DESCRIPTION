@@ -1,17 +1,16 @@
 Package: odbc
-Title: (No Tidyverse Depends) Connect to ODBC Compatible Databases (using the DBI Interface)
+Title: (Unmaintained, No Tidyverse Depends) Connect to ODBC Compatible Databases (using the DBI Interface)
 Version: 1.1.5.9000
 Authors@R: c(
-    person("Jim", "Hester", , "james.hester@rstudio.com", role = c("aut", "cre")),
+    person("Matt", "Summersgill", , "james.hester@rstudio.com", role = c("ctb")),
+    person("Jim", "Hester", , "james.hester@rstudio.com", role = c("aut")),
     person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut")),
     person("lexicalunit", role = c("cph"), comment = "nanodbc library"),
     person("Google Inc.", role = c("cph"), comment = "cctz library"),
     person("RStudio", role = c("cph", "fnd"))
   )
-Description: A DBI-compatible interface to ODBC databases.
+Description: Modified copy of the odbc package, a DBI-compatible interface to ODBC databases.
 License: MIT + file LICENSE
-URL: https://github.com/r-dbi/odbc
-BugReports: https://github.com/r-dbi/odbc/issues
 SystemRequirements: C++11, GNU make, An ODBC3 driver manager and drivers.
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.0.1.9000
