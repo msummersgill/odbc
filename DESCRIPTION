@@ -1,8 +1,8 @@
-Package: odbcLite
+Package: odbc
 Title: (Unmaintained fork with reduced dependencies) Connect to ODBC Compatible Databases (using the DBI Interface)
 Version: 1.1.5.9000
 Authors@R: c(
-    person("Matt", "Summersgill","matt.summersgill@gmail.com", role = c("cre")),
+    person("Matt", "Summersgill", ,"matt.summersgill@gmail.com", role = c("cre")),
     person("Jim", "Hester", , "james.hester@rstudio.com", role = c("aut")),
     person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut")),
     person("lexicalunit", role = c("cph"), comment = "nanodbc library"),
